@@ -127,9 +127,9 @@ async function swap(a1, a2) {
     await(delay);
 }
 
-const cursor = document.querySelector(".cursor");
+const curzor = document.querySelector(".curzor");
 document.addEventListener("mousemove", (e) => {
-    cursor.style.cssText = `top: ${e.y - 2}px; left: ${e.x - 2}px`
+    curzor.style.cssText = `top: ${e.y - 2}px; left: ${e.x - 2}px`
 })
 
 
