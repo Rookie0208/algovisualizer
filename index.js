@@ -82,8 +82,12 @@ array_size = size.value;
 
 // for speed slider :
 function arraySpeed() {
-    delay = speed.value;
-    console.log(speed.value);
+    $("#arraySpeed").on("change input", function() {
+        delay = Math.abs($(this).val());
+        console.log(delay);
+//     delay = speed.value;
+//     console.log(speed.value);
+    }
 }
 
 // for disabling sorting button
