@@ -1,5 +1,5 @@
-let speed = document.getElementById("arraySpeed");
-let delay = speed.value;
+// let speed = document.getElementById("arraySpeed");
+// let delay = speed.value;
 
 // Bubble Sort : *************************************************************************
 async function bubbleSort() {
