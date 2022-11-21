@@ -25,6 +25,9 @@
             margin-bottom: 20px;
             word-spacing: 4px;
         }
+        /* #clr {
+            color: aquamarine;
+        } */
         .exit {
             position: absolute;
             top: 20px;
@@ -74,6 +77,14 @@
             border-top: 0.5px solid pink;
             /* border: 1px solid black; */
         }
+        /* .equ_container {
+            background-color: white;
+            border: 2px solid white;
+            height: 50%;
+            width: 50%;
+            margin: 2px 5px;
+            padding: 0 5px 8px;
+        } */
         
         button {
             cursor: pointer;
@@ -105,17 +116,20 @@
         #arraySize, #arraySpeed {
             cursor: pointer;
         }
-        
-         @media (max-width: 700px) {
+        /* #arraySpeed {
+            direction: rtl;
+        } */
+
+        @media (max-width: 700px) {
             .bar {
-                z-index: -1;
+                max-width: 400px;
                 height: 100px;
+                width: 6px;
+                z-index: -1;
             }
-            
             .bar_container {
                 max-width: 600px;
             }
-            
             button {
             padding: 6px;
             margin: 2px;
@@ -133,9 +147,9 @@
                 flex-wrap: wrap;
                 bottom: 3px;
             }
-             .curzor {
-                 z-index: 5;
-             }
+            .curzor {
+                z-index: 5;
+            }
         }
 
     </style>
@@ -156,7 +170,7 @@
         <div class="footer">
         <div id="buttons_container">
             <button id="new_array" onclick="generateArray()">New Array</button>
-            <button id="bubbleSort">Bubble Sort</button>
+            <button id="bubbleSort" >Bubble Sort</button>
             <button id="selectionSort">Selection Sort</button>
             <button id="mergeSort">Merge Sort</button>
             <button id="quickSort">Quick Sort</button>
@@ -181,9 +195,8 @@
     <script src="./sortingAlgos/quickSort.js"></script>
     <script src="./sortingAlgos/mergeSort.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <script>
-      
+     
     </script>
 </body>
 </html>
