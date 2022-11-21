@@ -1,6 +1,3 @@
-// let speed = document.getElementById("arraySpeed");
-// let delay = speed.value;
-
 // Bubble Sort : *************************************************************************
 async function bubbleSort() {
     console.log(unsorted_array);
